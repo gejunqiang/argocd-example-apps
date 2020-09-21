@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: gcr.io/heptio-images/ks-guestbook-demo:0.2
+      - image: hub.c.163.com/commonwork/ks-guestbook-demo:0.2
         name: guestbook-ui
         ports:
         - containerPort: 80
